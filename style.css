@@ -1,0 +1,139 @@
+body
+{
+    align-self: stretch;
+    color: #cacaca;
+    background-color: #343430;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+
+header
+{
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100px;
+    margin-bottom: -5px;
+    background-color: #f5f4f4;
+    border-bottom: 5px solid #343430;
+}
+
+aside
+{
+    order: 2;
+    flex: 1;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    background-color: #dac034;
+    border-bottom: 5px solid #dac034;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+main
+{
+    align-items: center;
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    flex: 1 0 auto;
+}
+
+div.task-list
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f4f4;
+    border:#dac034 solid 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer
+{
+    order: 4;
+    flex: 0 0 auto;
+    width: 100%;
+    align-self: flex-end;
+    background-color: #d8d058;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav.header-logo
+{
+    float: left;
+}
+
+img.header-logo
+{
+    height: 100px;
+    width: 100px;
+}
+
+nav.header-info
+{
+    margin-left: -100px;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-self: stretch;
+    text-align: center;
+}
+
+nav.aside-link
+{
+    margin: 10px;
+    padding: 5px;
+    background-color: #343430;
+    border-radius: 10px;
+}
+
+.black
+{
+    color: #343430;
+}
+
+a.link-to-task
+{
+    font-size: 25px;
+}
+
+a:link
+{
+    color: #ffe16f;
+}
+
+a:visited
+{
+    color: #ff6231;
+}
+
+a:active
+{
+    color: #ffc100;
+}
+
+a:hover
+{
+    color: #ffc200;
+}
+
+.header-title
+{
+    margin-bottom: -1px;
+}
+.header-task
+{
+    margin-top: -1px;
+}
+
+input, select, textarea, tr.odd
+{
+    background-color: #cacaca;
+}

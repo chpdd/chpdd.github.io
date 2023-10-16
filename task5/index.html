@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="calculator.js" defer></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Список гиперссылок, таблица и форма</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-logo">
+            <img class="header-logo" src="/logo.png" alt="Logo">
+        </nav>
+        <nav class="header-info">
+            <h2 class="black header-title">$$$ website?</h2>
+            <h3 class="black header-task">Задание 5</h3>
+        </nav>
+
+    </header>
+
+    <aside>
+        <nav class="aside-link">
+            <a href="../index.html" class="black">Главная страница</a>
+        </nav>
+    </aside>
+
+    <main>
+        <div class="calculator">
+            <h1 class="black">Калькулятор товаров</h1>
+
+            <label for="products" class="black">Наименования товаров</label>
+            <select id="products" name="products" required>
+                <option value="249.99">Пельмени - 249.99 руб.</option>
+                <option value="69.99">Сметана - 69.99 руб.</option>
+                <option value="149.99">Брусничный соус - 149.99 руб.</option>
+                <option value="69.99">Добрый кола - 69.99 руб.</option>
+                <option value="99.99">Малосольные огурцы - 99.99 руб.</option>
+                <option value="5.99">Пакет - 5.99 руб.</option>
+            </select>
+
+            <label class="black" for="number">Количество выбранного товара:</label>
+            <input type="number" id="number" min="0" required>
+
+            <input type="button" id="button" onclick="calculate_price()" value="Подсчитать стоимость">
+
+            <label for="result" class="black">Стоимость заказа:</label>
+            <div id="result" class="black"></div>
+        </div>
+    </main>
+</body>
+
+</html>
