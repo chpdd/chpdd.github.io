@@ -62,13 +62,13 @@ function calculate_price_items()
             {
                 console.log('case0');
                 let cost = 49990;
-                let checkbox_telephone = document.querySelectorAll('.checkbox_telephone input[type="checkbox"]');
-                for (let i = 0; i < checkbox_telephone.length; i++) {
-                    if (checkbox_telephone[i].checked) {
-                        cost += parseInt(checkbox_telephone[i].value);
+                let checkboxes = document.getElementsByClassName('checkbox_telephone');
+                console.log(checkboxes);
+                for (let i = 0; i < 4; i++) {
+                    if (checkboxes[i].checked) {
+                        cost += parseInt(checkboxes[i].value);
                     }
                 }
-
                 cost *= n;
                 cost = cost.toFixed(2);
                 document.getElementById("result_items").textContent = cost + " руб.";

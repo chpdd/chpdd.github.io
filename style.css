@@ -14,10 +14,10 @@ header
     flex-direction: row;
     flex: 0 0 auto;
     width: 100%;
+    margin-top: -5px;
     height: 100px;
-    margin-bottom: -5px;
     background-color: #f5f4f4;
-    border-bottom: 5px solid #343430;
+    border-bottom: 5px solid #dac034;
 }
 
 aside
@@ -27,7 +27,8 @@ aside
     width: 100%;
     flex-direction: row;
     display: flex;
-    background-color: #dac034;
+    margin-right: -10px;
+    background-color: #f5f4f4;
     border-bottom: 5px solid #dac034;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -39,8 +40,6 @@ main
     order: 3;
     display: flex;
     flex-direction: column;
-    line-height: 1.5;
-    flex: 1 0 auto;
 }
 
 div.tasks
@@ -58,12 +57,13 @@ div.tasks
 footer
 {
     order: 4;
-    flex: 0 0 auto;
-    width: 100%;
-    align-self: flex-end;
+    width: 99%;
     background-color: #d8d058;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
+    bottom: 0;
+    margin-bottom: 5px;
+    position: absolute;
 }
 
 nav.header-logo
@@ -92,6 +92,11 @@ nav.aside-link
     padding: 5px;
     background-color: #343430;
     border-radius: 10px;
+}
+
+.white
+{
+    color: #f5f4f4;
 }
 
 .black
@@ -145,4 +150,10 @@ div.tasks-list
     padding: 10px;
     background-color: #cacaca;
     border-radius: 10px;
+}
+
+.text_in_footer
+{
+    margin: -5px;
+    padding: 5px;
 }

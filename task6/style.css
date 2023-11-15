@@ -74,3 +74,8 @@ input#number_items
 {
     margin-bottom: 5px;
 }
+
+footer
+{
+    position: static;
+}
