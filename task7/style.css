@@ -33,6 +33,7 @@ li.slick-active > button::before
 
 .slick-dots
 {
+  font-size: 20px;
   bottom: -60px;
 }
 
