@@ -4,7 +4,7 @@ body
     color: #cacaca;
     background-color: #343430;
     font-family: "Century Gothic";
-    font-size: 20px;
+    font-size: 130%;
 }
 
 header
@@ -62,7 +62,6 @@ footer
     text-align: center;
     border-radius: 5px;
     bottom: 0;
-    margin-bottom: 5px;
     position: absolute;
 }
 
@@ -156,4 +155,30 @@ div.tasks-list
 {
     margin: -5px;
     padding: 5px;
+}
+
+.div_button
+{
+    text-align: center;
+    user-select: none;
+    border-radius: 10px;
+    background-color: #ffe16f;
+    color: #343430;
+    padding: 10px;
+    margin: 10px;
+    border: #343430 solid 2px;
+}
+
+.div_button:hover
+{
+    background-color: #fde1a2;
+}
+.div_button:active
+{
+    background-color: #fdf3c2;
+}
+
+.center-text
+{
+    text-align: center;
 }
