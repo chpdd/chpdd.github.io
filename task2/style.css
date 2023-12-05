@@ -1,7 +1,7 @@
 body
 {
-    color: #cacaca;
-    background-color: #343430;
+    color: #d4d4d7;
+    background-color: #2d2a2e;
     font-family: "Century Gothic";
     font-size: 20px;
 }
@@ -15,7 +15,7 @@ header
     margin-top: -8px;
     margin-bottom: 20px;
     background-color: white;
-    border-bottom: 5px solid #dac034;;
+    border-bottom: 5px solid #ffd866;;
     border-radius: 10px;
     justify-content: space-between;
 }
@@ -60,7 +60,7 @@ nav.header-link
     float: right;
     margin-right: 10px;
     padding: 5px 10px;
-    background-color: #343430;
+    background-color: #2d2a2e;
     border-radius: 10px;
 }
 
@@ -73,28 +73,28 @@ img.header-logo
 
 tr
 {
-    background-color: #cacaca;
-    border-bottom: 2px solid #343430;
+    background-color: #d4d4d7;
+    border-bottom: 2px solid #2d2a2e;
 }
 
 tr.odd
 {
-    background-color: #cacaca;
+    background-color: #d4d4d7;
 }
 
 tr.even
 {
-    background-color: #dac034;
+    background-color: #ffd866;
 }
 
 .black
 {
-    color: #343430;
+    color: #2d2a2e;
 }
 
 input
 {
-    background-color: #cacaca;
+    background-color: #d4d4d7;
 }
 
 a:link
@@ -119,10 +119,10 @@ a:hover
 
 textarea
 {
-    background-color: #cacaca;
+    background-color: #d4d4d7;
 }
 
 select
 {
-    background-color: #cacaca;
+    background-color: #d4d4d7;
 }

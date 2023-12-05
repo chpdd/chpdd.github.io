@@ -2,8 +2,8 @@ body
 {
     flex-direction: column;
     align-self: stretch;
-    color: #cacaca;
-    background-color: #343430;
+    color: #d4d4d7;
+    background-color: #2d2a2e;
     font-family: "Century Gothic";
     font-size: 20px;
 }
@@ -16,7 +16,7 @@ header
     width: 100%;
     height: 110px;
     background-color: white;
-    border-bottom: 5px solid #dac034;;
+    border-bottom: 5px solid #ffd866;;
 }
 
 aside
@@ -26,7 +26,7 @@ aside
     flex-direction: row;
     display: flex;
     background-color: white;
-    border-bottom: 5px solid #dac034;
+    border-bottom: 5px solid #ffd866;
 }
 
 main
@@ -72,7 +72,7 @@ nav.aside-link
 {
     margin: 10px;
     padding: 5px;
-    background-color: #343430;
+    background-color: #2d2a2e;
     border-radius: 10px;
 }
 
@@ -93,22 +93,22 @@ div.form
 
 tr
 {
-    border-bottom: 2px solid #343430;
+    border-bottom: 2px solid #2d2a2e;
 }
 
 .black
 {
-    color: #343430;
+    color: #2d2a2e;
 }
 
 input, select, textarea, tr.odd
 {
-    background-color: #cacaca;
+    background-color: #d4d4d7;
 }
 
 tr.even
 {
-    background-color: #dac034;
+    background-color: #ffd866;
 }
 
 a.link-to-task
