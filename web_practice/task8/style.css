@@ -1,0 +1,125 @@
+main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#checkbox
+{
+    align-self: flex-start;
+}
+
+label#for-checkbox
+{
+    font-size: 12px;
+}
+
+.label-center
+{
+    align-self: center;
+}
+
+.size-input
+{
+    align-self: center;
+    width: 300px;
+    height: 20px;
+}
+
+#message
+{
+    align-self: center;
+    width: 300px;
+    height: 75px;
+}
+
+.div-input
+{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#pop-up
+{
+    display: none;
+    opacity: 0;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    position: absolute;
+    background-color: #4b454b;
+    border:#ffd866 solid 2px;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#img-dog
+{
+    border-radius: 10px;
+    border: #343430 solid 2px;
+    margin: 10px;
+    align-self: center;
+    width: 40%;
+}
+
+#to-pop-up
+{
+    padding: 10px;
+    margin: 20px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4b454b;
+    border:#ffd866 solid 2px;
+    border-radius: 5px;
+}
+
+#close-pop-up
+{
+    left: 0;
+    align-self: flex-start;
+    color: #ff403c;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+#for-x
+{
+    text-align: right;
+    margin: 0;
+    padding: 5px;
+}
+
+#h1-form
+{
+    margin-top: -35px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#div-with-submit
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submit-request
+{
+    font-size: 20px;
+    font-family: "JetBrains Mono";
+}
+
+.user-select-none
+{
+    user-select: none;
+}
+
+.pointer-event-none
+{
+    pointer-events: none;
+}
