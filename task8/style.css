@@ -48,9 +48,9 @@ label#for-checkbox
     left:50%;
     transform:translate(-50%, -50%);
     position: absolute;
-    background-color: #f5f4f4;
-    border:#dac034 solid 5px;
-    border-radius: 10px;
+    background-color: #4b454b;
+    border:#ffd866 solid 2px;
+    border-radius: 5px;
     flex-direction: column;
     padding: 10px;
     justify-content: space-between;
@@ -73,9 +73,9 @@ label#for-checkbox
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f5f4f4;
-    border:#dac034 solid 5px;
-    border-radius: 10px;
+    background-color: #4b454b;
+    border:#ffd866 solid 2px;
+    border-radius: 5px;
 }
 
 #close-pop-up
@@ -111,7 +111,7 @@ label#for-checkbox
 #submit-request
 {
     font-size: 20px;
-    font-family: "Century Gothic";
+    font-family: "JetBrains Mono";
 }
 
 .user-select-none
