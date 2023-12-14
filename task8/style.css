@@ -110,6 +110,10 @@ label#for-checkbox {
     font-family: "JetBrains Mono";
 }
 
+#if-error {
+    display: none;
+}
+
 .user-select-none {
     user-select: none;
 }
